@@ -149,8 +149,8 @@ Block task
                 on_event:entry()
                 {
                     control.target = choose_1of2_page;
-		    control.enable_button(0, 1);
-		    control.enable_button(2, 2);
+    	            control.enable_button(0, 1);
+                    control.enable_button(2, 2);
                     choose_1of2_page.set_text(item.question);
                     choose_1of2_page.set_label_texts(" Yes ", " No ");
                     choose_1of2_page.set_answer_values(1, 0);
@@ -224,6 +224,51 @@ Block task
             save_trial_data();
         }
 
+        TransientPart test_pause
+        {
+            on_event:entry()
+            {
+                if (test.cycle == test.num_cycles / 2) {
+                    pre_pause.enter();
+                }
+                else {
+                    // skip pause stuff.
+                    trial.enter();
+                }
+            }
+        }
+        
+        Part pre_pause
+        {
+            on_event:entry()
+            {
+                blank_page.action_auto(this, 500ms);
+            }
+        }
+
+
+        Part pause
+        {
+            on_event:entry()
+            {
+                pause_page.set_text(
+                        "Pauze!"
+                        "\n"
+                        "<i>Druk op de spatiebalk om door te gaan.</i>",
+                        true);
+
+                pause_page.action(this);
+                control.enable_all_buttons(CONTINUE);
+            }
+        }
+        
+        Part post_pause
+        {
+            on_event:entry()
+            {
+                blank_page.action_auto(this, 500ms);
+            }
+        }
 
         Trial trial
         {
