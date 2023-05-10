@@ -336,7 +336,7 @@ Page test_page
         control.target = this;
         control.disable_buttons();
 
-	control.enable_button(1, CONTINUE);
+        control.enable_button(1, CONTINUE);
 
         // Save the passed trial control parameters.
         item = it;
