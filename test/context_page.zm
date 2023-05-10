@@ -12,6 +12,7 @@ HISTORY:
 
 \******************************************************************************/
 
+import defs;
 
 Page text_page
 {
@@ -49,7 +50,7 @@ Page text_page
             init()
             {
                 font_family = TEXT_PAGE_MESSAGE_FONT_FAMILY;
-                font_size = TEXT_PAGE_MESSAGE_FONT_SIZE;
+                font_size = CONTEXT_FONT_SIZE;
                 fill_pattern_color = TEST_PAGE_STIMULUS_COLOR;
                 text_color = TEXT_PAGE_MESSAGE_TEXT_COLOR;
                 hor_alignment = ALIGN_BEGIN;
