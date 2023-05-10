@@ -58,6 +58,8 @@ void test_output_append(TestOutput data)
     expdb.set_trial_data_string_field("type", string(data.type) , "item type");
     expdb.set_trial_data_string_field("condition", string(data.condition) , "condition");
     expdb.set_trial_data_string_field("question", data.question, "question");
+    expdb.set_trial_data_int_field("answer", data.answer,
+        "answer: 1=waar, 0=niet waar, -1=n.a.");
     expdb.set_trial_data_int_field("qcorrect", data.qcorrect,
         "question correct: 1=correct, 0=incorrect -1=n.a.");
     expdb.set_trial_data_int_field("rt1", data.rt1, "reaction time segment 1");
