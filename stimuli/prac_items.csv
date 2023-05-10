@@ -1,0 +1,8 @@
+### Practice items ###;;;;;;
+id;type;condition;segments;context;question;qanswer
+1;NONREFPL;CORRECT;"Ook/vandaag/zoekt/Roos/ze/in/die/mooie/
+Achtertuin/die/door/haar/opa/wordt/onderhouden.";"Op eerst paasdag gaat Roos vaak naar haar opa en oma.
+Opa en oma verstoppen dan altijd paaseitjes voor haar.";;
+2;MASS;CORRECT;"Een/uur/later/koopt/haar/moeder/het/bij/
+De/goede/bakkerij/die/door/het/hele/dorp/wordt/bezocht.";"Maartjes moeder gaat boodschappen doen.
+Maartje vraagt haar of ze brood mee kan nemen.";This is an example question (answer is yes);1
