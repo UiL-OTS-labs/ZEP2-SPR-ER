@@ -279,6 +279,7 @@ Block task
                 output.trialnum = test.cycle + 1;
                 output.id = item.id;
                 output.type = item.type;
+                output.condition = item.condition;
                 output.question = substring(item.question, 0, 30);
                 output.qcorrect = -1;
 

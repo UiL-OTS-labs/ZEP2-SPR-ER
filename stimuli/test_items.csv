@@ -3,7 +3,7 @@
 0;1;"INDEFADJ";"CORRECT";"In/haar/nieuwe/kamer/krijgt/ze/#een/#brede/met/
 Een/aantal/planken/die/door/haar/vader/worden/bevestigd.";"Daniëlle gaat verhuizen.
 In haar huidige kamer heeft ze een smalle boekenkast maar daar passen haar boeken niet allemaal in.";"This is an example question (answer is no)";0
-0;2;"POSITION";"CORRECT";"Volgend/weekend/geeft/hij/#er/#drie/op/het/grote/festival/dat/door/vrienden/wordt/georganiseerd.";"Martijn speelt in een band.
+0;2;"POSITION";"INCORRECT";"Volgend/weekend/geeft/hij/#er/#drie/op/het/grote/festival/dat/door/vrienden/wordt/georganiseerd.";"Martijn speelt in een band.
 De band wordt steeds populairder en ze geven steeds meer optredens.";;
 0;3;"PARTPP";"CORRECT";"In/de/garage/repareert/Bert/#twee/van/de/kapotte/
 Auto's/die/door/een/botsing/werden/vernield.";"Bert is automonteur.
@@ -15,7 +15,7 @@ Vorige week heeft ze wel drie potten gebakken.";;
 1;1;"INDEFADJ";"CORRECT";"In/haar/nieuwe/kamer/krijgt/ze/#een/#brede/met/een/
 Aantal/planken/die/door/haar/vader/worden/bevestigd.";"Daniëlle gaat verhuizen.
 In haar huidige kamer heeft ze een smalle boekenkast maar daar passen haar boeken niet allemaal in.";"This is an example question (answer is no)";0
-1;2;"POSITION";"CORRECT";"Volgend/weekend/geeft/hij/#er/#drie/op/het/grote/
+1;2;"POSITION";"INCORRECT";"Volgend/weekend/geeft/hij/#er/#drie/op/het/grote/
 Festival/dat/door/vrienden/wordt/georganiseerd.";"Martijn speelt in een band.
 De band wordt steeds populairder en ze geven steeds meer optredens.";;
 1;3;"PARTPP";"CORRECT";"In/de/garage/repareert/Bert/#twee/van/de/kapotte/
